@@ -1,0 +1,172 @@
+{
+	"id": "8a06dd3e-e741-475d-9bf2-7563ba6c0f79",
+	"name": "Group_26",
+	"timestamp": "2022-01-23T11:29:59.724Z",
+	"collection_id": "15235636-b6ebb1e8-98aa-4ab0-b45a-598ffa03b392",
+	"folder_id": 0,
+	"environment_id": "ad6e325a-f696-49f6-bfb3-16963ddca3df",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dfffbf47-0117-458e-8fdb-c699adb995c8",
+			"name": "EP_1-get_method",
+			"url": "http://162.55.220.72:5005/get_method?name=Olga&age=28",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				96
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de8caebf-8a30-420c-b368-5e73a84f6923",
+			"name": "EP_2-user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f38001dd-f780-4782-9399-c3447fb22de0",
+			"name": "EP_3-object_info_1",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Olga&age=28&weight=57",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				95
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ddad5f93-8442-4d62-9514-f884f0201066",
+			"name": "EP_4-object_info_2",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Olga&age=28&salary=700",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cc0f5332-d907-46e2-b676-5733b67f3cb8",
+			"name": "EP_5-object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Olga&age=28&salary=700",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				72
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "61008d47-bf29-430b-990d-5a6a322f77bc",
+			"name": "EP_6-object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Olga&age=28&salary=700",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "98b93fa2-3a21-43ad-8fa2-43377a663806",
+			"name": "EP_7 -user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				76
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 590,
+	"collection": {
+		"requests": [
+			{
+				"id": "dfffbf47-0117-458e-8fdb-c699adb995c8",
+				"method": "GET"
+			},
+			{
+				"id": "de8caebf-8a30-420c-b368-5e73a84f6923",
+				"method": "POST"
+			},
+			{
+				"id": "f38001dd-f780-4782-9399-c3447fb22de0",
+				"method": "GET"
+			},
+			{
+				"id": "ddad5f93-8442-4d62-9514-f884f0201066",
+				"method": "GET"
+			},
+			{
+				"id": "cc0f5332-d907-46e2-b676-5733b67f3cb8",
+				"method": "GET"
+			},
+			{
+				"id": "61008d47-bf29-430b-990d-5a6a322f77bc",
+				"method": "GET"
+			},
+			{
+				"id": "98b93fa2-3a21-43ad-8fa2-43377a663806",
+				"method": "POST"
+			}
+		]
+	}
+}
